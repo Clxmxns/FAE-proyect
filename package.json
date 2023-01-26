@@ -1,0 +1,19 @@
+{
+  "name": "fae-proyect",
+  "version": "1.0.0",
+  "description": "Aplicación web que permite la programación musical en sistema amplificado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "musica",
+    "amplificación",
+    "aplicación"
+  ],
+  "author": "Bawer Veliz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
