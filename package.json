@@ -4,7 +4,8 @@
   "description": "Aplicación web que permite la programación musical en sistema amplificado",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
   },
   "keywords": [
     "musica",
@@ -14,6 +15,7 @@
   "author": "Bawer Veliz",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
   }
 }
