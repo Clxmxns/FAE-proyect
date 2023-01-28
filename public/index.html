@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="slick/slick.min.css">          <!-- https://kenwheeler.github.io/slick/ -->
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/templatemo-upright.css">
+    <link rel="stylesheet" href="css/estilos.css">
 <!--
 
 
@@ -20,6 +21,7 @@
     <div class="container-fluid">
         <div class="row">
             <!-- Leftside bar -->
+            
             <div id="tm-sidebar" class="tm-sidebar"> 
                 <nav class="tm-nav">
                     <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
@@ -75,7 +77,7 @@
                         </ul>
                     </div>
                     <footer class="mb-3 tm-mt-100">
-                        Design: <a href="https://templatemo.com" target="_parent" rel="sponsored">TemplateMo</a>
+                        <a target="_parent" rel="sponsored">Fuerza Aérea Ecuatoriana</a>
                     </footer>
                 </nav>
             </div>
@@ -88,38 +90,49 @@
                         <h2 class="tm-text-primary">Bienvenidos al Sistema de programación musical de la FAE</h2>
                         <hr class="mb-5">
                         <div class="row">
+                            <div class="overlay" id="overlay">    
                             <div class="col-lg-6 tm-col-home mb-4">
                                 <div class="tm-text-container">
-                                    <div class="tm-icon-container mb-5 mr-0 ml-auto">
-                                        <i class="fas fa-satellite-dish fa-4x tm-text-primary"></i>
-                                    </div>                                
-                                    <p>
-                                        Leftmost column is placed for logo and main menu.
-                                        After that is an image column. Right side column 
-                                        is a 100% full-width content.
-                                    </p>
-                                    <p>
-                                        Right side can put many contents and it will
-                                        scroll up / down. Left side is fixed. Parallax
-                                        Image changes for different pages.
-                                    </p>
+                                    <div class="text-right">
+                                        <a href="" id="btn-abrir-popup" class="btn-abrir-popup">Crear Lista de reproducción</a>
+                                    </div>                              
                                 </div>                                
                             </div>
                             <div class="col-lg-6 tm-col-home mb-4">
                                 <div class="tm-text-container">
-                                    <div class="tm-icon-container mb-5 mr-0 ml-auto">
-                                        <i class="fas fa-broadcast-tower fa-4x tm-text-primary"></i>
-                                    </div>                                 
-                                    <p>
-                                        Quisque tincidunt, sem rutrum euismod ornare, tortor arcu tempus 
-                                        lorem, accumsan suscipit mauris lorem at lorem. Praesent feugiat 
-                                        mi at tortor tincidunt, ac consequat ante cursus.
-                                    </p>
                                     <div class="text-right">
-                                        <a href="#gallery" class="btn btn-primary tm-btn-next">Next Page</a>
-                                    </div>                                    
+                                        <a href="#gallery" class="btn btn-primary tm-btn-next">Modificar</a>
+                                    </div>                      
                                 </div>
                             </div>
+                            <div class="col-lg-6 tm-col-home mb-4">
+                                <div class="tm-text-container" >
+                                    <div class="text-right">
+                                        <a href="#gallery" class="btn btn-primary tm-btn-next">Eliminar</a>
+                                    </div>          
+                                </div>
+                                <div class="tm-text-container">                              
+                                </div>
+                            </div>
+                            <div class="col-lg-6 tm-col-home mb-4">
+                                <div class="tm-text-container">
+                                    <div class="text-right">
+                                        <a href="#gallery" class="btn btn-primary tm-btn-next">Elegir Reproducción</a>
+                                    </div>                      
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popup" id="popup">
+                            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                            <h3>SUSCRIBETE</h3>
+                            <h4>y recibe un cupon de descuento.</h4>
+                            <form action="">
+                                <div class="contenedor-inputs">
+                                    <input type="text" placeholder="Nombre">
+                                    <input type="email" placeholder="Correo">
+                                </div>
+                                <input type="submit" class="btn-submit" value="Suscribirse">
+                            </form>
                         </div>
                         <hr class="tm-hr-short mb-5">
                         <div class="row tm-row-home">                            
@@ -745,7 +758,7 @@
                 <div class="tm-section-wrap tm-copyright row">
                     <div class="col-12">
                         <div class="text-right">
-                            Copyright 2020 Upright Company
+                            Copyright 2023 Bawer Veliz
                         </div> 
                     </div>
                 </div>                 
@@ -760,5 +773,6 @@
     <script src="js/jquery.magnific-popup.min.js"></script> <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
     <script src="slick/slick.min.js"></script>              <!-- https://kenwheeler.github.io/slick/ -->
     <script src="js/templatemo-script.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 </html> 
